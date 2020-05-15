@@ -10,7 +10,7 @@
 
 * Create a customer login form that checks `username` and `password` inputs against values stored in a database.
 * Bare-bones UI is fine.
-* Protect against at least two of OWASP's [Top 10](https://owasp.org/www-project-top-ten/) vulnerabilities.
+* Bonus: Protect against (at least) two of OWASP's [Top 10](https://owasp.org/www-project-top-ten/) vulnerabilities.
 * Log all attempts whether successful or not.
 * Include the CREATE TABLE statements in a separate file.
 
