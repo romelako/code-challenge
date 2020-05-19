@@ -1,0 +1,15 @@
+CREATE TABLE `customers` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `created` datetime NOT NULL,
+  `username` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `password` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  PRIMARY KEY (`id`)
+)
+
+CREATE TABLE `login_activity` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `login_date` datetime NOT NULL,
+  `username` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `status` int NOT NULL,
+  PRIMARY KEY (`id`)
+)
